@@ -1,0 +1,26 @@
+$color: red;
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px olid black;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    overflow-x: hidden;
+}
+
+.ML {
+    @extend %message;
+    background-color: red;
+}
+
+.AI {
+    @extend %message;
+    background-color: blue;
+}
+
+.CA {
+    @extend %message;
+    background-color: green;
+}
